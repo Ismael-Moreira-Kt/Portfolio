@@ -1,0 +1,7 @@
+.pe {
+    cursor: pointer;
+}
+
+.pe:hover {
+    font-weight: bold;
+}
