@@ -19,6 +19,15 @@
                     <h2>Featured Projects</h2>
                     <h4>{{featuredProject.name}}</h4>
                 </div>
+                <carousel class="d-flex align-items-center justify-content-center">
+                    <div *ngFor="let item of featuredProject.pictures">
+                        <slide><img class="mx-auto d-block border border-dark" style="width: 80%;" src={{item}} alt=""></slide>
+                    </div>
+                </carousel>
+            </div>
+            <div class="text-left">
+                <p class="mt-3">{{featuredProject.description}}</p>
+                <p>Visit Portfolio section to view more!</p>
             </div>
         </div>
     </div>

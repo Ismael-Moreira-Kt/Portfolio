@@ -1,0 +1,22 @@
+.modal-header {
+    background-color: #7465d6;
+}
+
+.modal-body {
+    background-color: #b19cd9;
+}
+
+a {
+    color: #000;
+}
+
+.tag {
+    padding: 0 20px;
+    height: 30px;
+    width: fit-content;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 25px;
+    background-color: #ccc;
+    color: #fff;
+}
